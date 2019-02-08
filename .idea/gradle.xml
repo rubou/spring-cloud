@@ -4,6 +4,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bookservice" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.." />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/bookservice" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/configservice" />
         <option name="gradleHome" value="$PROJECT_DIR$/.." />
         <option name="modules">
@@ -12,6 +23,28 @@
           </set>
         </option>
         <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.." />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demo" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo-service" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.." />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demo-service" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />

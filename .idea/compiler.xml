@@ -9,6 +9,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="co.jp.okcoin.studyspring.bookservice.main" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.bookservice.test" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.demo-service.main" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.demo-service.test" target="1.8" />
+      <module name="com.example.demo.main" target="1.8" />
+      <module name="com.example.demo.test" target="1.8" />
       <module name="configservice_main" target="1.8" />
       <module name="configservice_test" target="1.8" />
       <module name="discoveryservice" target="1.8" />

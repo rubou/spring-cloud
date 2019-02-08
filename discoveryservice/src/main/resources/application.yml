@@ -1,6 +1,9 @@
 # 使用するポート番号(デフォルト8761だが分かりやすく明示)
-  server.port: 8761
+server:
+    port: 8700
 
-  # 自分自身をEurekaのレジストリに登録しない
-  eureka.client.registerWithEureka: false
-  eureka.client.fetchRegistry: false
+# 自分自身をEurekaのレジストリに登録しない
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false

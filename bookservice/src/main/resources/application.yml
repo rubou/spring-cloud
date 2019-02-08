@@ -1,0 +1,14 @@
+# 使用するポート番号(デフォルト8761だが分かりやすく明示)
+server:
+  port: 8087
+
+  # config for eurika
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+book:
+  name: Test book.
+  auth: Test Auth
+  creatDate: 2019/01/01

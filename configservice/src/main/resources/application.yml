@@ -1,0 +1,17 @@
+# 使用するポート番号
+server:
+    port: 8888
+
+spring:
+    application:
+        # サービス名
+        name: ConfigService
+    cloud:
+        config:
+          #label: master
+          server:
+            git:
+              # GitリポジトリURI
+              uri: https://github.com/rubou/config-repository
+              #uri: file://Users/rubou.chen/Desktop/config-repo
+              search-paths: bookservice,discoveryservice

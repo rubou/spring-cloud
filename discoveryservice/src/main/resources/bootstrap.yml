@@ -1,5 +1,12 @@
 # サービス名
-spring.application.name: DiscoveryService
+spring:
+    application:
+        name: discovery-service
 
 # ConfigServiceのURI
-spring.cloud.config.uri: http://localhost:8888
+    cloud:
+        config:
+            uri: http://localhost:8888
+            profile: dev
+            label: master
+            name: discovery-service
