@@ -1,0 +1,12 @@
+# サービス名
+spring:
+  application:
+    name: hello-service
+
+  # ConfigServiceのURI
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: dev
+      label: master
+      name: hello
