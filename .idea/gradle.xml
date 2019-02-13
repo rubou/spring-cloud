@@ -60,6 +60,28 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hello" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.." />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/hello" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hello-service" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../.." />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/hello-service" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/helloservice" />
         <option name="gradleHome" value="$PROJECT_DIR$/../.." />
         <option name="modules">

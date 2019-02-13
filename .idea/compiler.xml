@@ -15,6 +15,10 @@
       <module name="co.jp.okcoin.studyspring.demo-service.test" target="1.8" />
       <module name="co.jp.okcoin.studyspring.demo.main" target="1.8" />
       <module name="co.jp.okcoin.studyspring.demo.test" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.hello-service.main" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.hello-service.test" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.hello.main" target="1.8" />
+      <module name="co.jp.okcoin.studyspring.hello.test" target="1.8" />
       <module name="co.jp.okcoin.studyspring.helloservice-config.main" target="1.8" />
       <module name="co.jp.okcoin.studyspring.helloservice-config.test" target="1.8" />
       <module name="co.jp.okcoin.studyspring.helloservice.main" target="1.8" />

@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.demo-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.demo-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.demo-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.demo-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.main.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.test.iml" filepath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.hello.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/configservice/configservice.iml" filepath="$PROJECT_DIR$/configservice/configservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configservice_main.iml" group="configservice" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configservice_test.iml" group="configservice" />
