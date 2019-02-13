@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class BookRestApi {
 
     @Autowired
-    private BookConfig bookConfig;
+    private BookService bookService;
 
     @ResponseBody
     @RequestMapping(value = "/show", produces = "application/json")
     public Book getBook() {
-        Book book = bookConfig.getBook();
+        Book book = bookService.getBook();
 
         System.out.println("-------- book.name = " + book.getName());
         System.out.println("-------- book.auth = " + book.getAuth());

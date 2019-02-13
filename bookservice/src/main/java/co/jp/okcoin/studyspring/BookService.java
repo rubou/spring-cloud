@@ -1,10 +1,12 @@
 package co.jp.okcoin.studyspring;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BookConfig {
+@RefreshScope
+public class BookService {
 
     /*
     @Bean

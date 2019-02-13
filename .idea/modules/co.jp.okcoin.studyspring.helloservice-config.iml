@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="helloservice-config" external.linked.project.path="$MODULE_DIR$/../../helloservice-config" external.root.project.path="$MODULE_DIR$/../../helloservice-config" external.system.id="GRADLE" external.system.module.group="co.jp.okcoin.studyspring" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../helloservice-config">
+      <excludeFolder url="file://$MODULE_DIR$/../../helloservice-config/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../helloservice-config/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../helloservice-config/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

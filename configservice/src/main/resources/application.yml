@@ -14,4 +14,4 @@ spring:
               # GitリポジトリURI
               uri: https://github.com/rubou/config-repository
               #uri: file://Users/rubou.chen/Desktop/config-repo
-              search-paths: bookservice,discoveryservice
+              search-paths: helloservice,bookservice,discoveryservice

@@ -2,32 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1f4f9ed-ce92-427c-b3fd-3e8465509ae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/test/java/co/jp/okcoin/studyspring/BookserviceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/co.jp.okcoin.studyspring.bookservice.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configservice/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/configservice/.gradle/" />
@@ -46,6 +32,12 @@
     <ignored path="$PROJECT_DIR$/demo/.gradle/" />
     <ignored path="$PROJECT_DIR$/demo/build/" />
     <ignored path="$PROJECT_DIR$/demo/out/" />
+    <ignored path="$PROJECT_DIR$/helloservice/.gradle/" />
+    <ignored path="$PROJECT_DIR$/helloservice/build/" />
+    <ignored path="$PROJECT_DIR$/helloservice/out/" />
+    <ignored path="$PROJECT_DIR$/helloservice-config/.gradle/" />
+    <ignored path="$PROJECT_DIR$/helloservice-config/build/" />
+    <ignored path="$PROJECT_DIR$/helloservice-config/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +60,12 @@
     <projectState path="$PROJECT_DIR$/discoveryservice">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/helloservice">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/helloservice-config">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -78,115 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discoveryservice/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.14/77a3ba9b672a82b6796d895e9640f90e73ac6389/tomcat-embed-core-9.0.14-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java">
+        <entry file="file://$PROJECT_DIR$/configservice/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.4.RELEASE/1c97085f1052ad3206bafd364eba572d9f7565c2/spring-web-5.1.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -213,16 +107,20 @@
         <option value="$PROJECT_DIR$/discoveryservice/src/main/resources/discoveryservice.yml" />
         <option value="$PROJECT_DIR$/configservice/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/configservice/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java" />
         <option value="$PROJECT_DIR$/demo-service/build.gradle" />
+        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/Book.java" />
         <option value="$PROJECT_DIR$/bookservice/build.gradle" />
+        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java" />
+        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookService.java" />
+        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java" />
+        <option value="$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bookservice/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/bookservice/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/Book.java" />
-        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java" />
-        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java" />
+        <option value="$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java" />
+        <option value="$PROJECT_DIR$/helloservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/helloservice/src/main/java/co/jp/okcoin/studyspring/HelloRestApi.java" />
+        <option value="$PROJECT_DIR$/helloservice/build.gradle" />
+        <option value="$PROJECT_DIR$/configservice/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -238,9 +136,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,7 +149,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549625930512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550036569298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -276,7 +174,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19642097" />
+    <option name="contentProportion" value="0.21677019" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
     <configuration name="discoveryservice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -355,6 +253,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpringBeansView">
+    <option name="showModules" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -370,7 +271,8 @@
       <workItem from="1549518935111" duration="2388000" />
       <workItem from="1549522790586" duration="23388000" />
       <workItem from="1549616051728" duration="409000" />
-      <workItem from="1549617016628" duration="6944000" />
+      <workItem from="1549617016628" duration="24145000" />
+      <workItem from="1550019416320" duration="7637000" />
     </task>
     <servers />
   </component>
@@ -392,19 +294,28 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43578000" />
+    <option name="totallyTimeSpent" value="68416000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1739" y="53" width="2417" height="1279" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18357895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21726316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
+      <window_info id="Learn" order="7" weight="0.3296842" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -412,8 +323,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32940185" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32940185" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32771695" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32940185" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32940185" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -440,22 +351,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/configservice/src/test/java/co/jp/okcoin/studyspring/ConfigServiceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml.properties" />
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/discoveryservice.yml" />
-    <entry file="file://$PROJECT_DIR$/configservice/configservice.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discoveryservice/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/discoveryservice/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -482,9 +377,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configservice/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/configservice/out/production/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/configservice/out/production/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/test-application.yml" />
     <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/discoveryservice/out/production/resources/application.yml">
@@ -505,13 +397,6 @@
         <state relative-caret-position="-473" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configservice/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.4.RELEASE/8be9ed31f0ad503c96cdbd3063ae4a6f418239c/spring-core-5.1.4.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -522,49 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/java/co/jp/okcoin/studyspring/DiscoveryserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-service/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/co/jp/okcoin/studyspring/DemoServiceApplication.java" />
     <entry file="file://$PROJECT_DIR$/demo-service/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/demo/build.gradle" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" />
-    <entry file="file://$PROJECT_DIR$/discoveryservice/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configservice/src/main/java/co/jp/okcoin/studyspring/ConfigServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -572,20 +418,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -603,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookservice/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.14/77a3ba9b672a82b6796d895e9640f90e73ac6389/tomcat-embed-core-9.0.14-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -624,54 +449,194 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="315">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookConfig.java" />
+    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/out/production/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/out/production/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/old-bootstrap.yml" />
+    <entry file="file://$PROJECT_DIR$/configservice/out/production/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discoveryservice/src/main/java/co/jp/okcoin/studyspring/DiscoveryserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookRestApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/java/co/jp/okcoin/studyspring/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configservice/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/src/main/java/com/example/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discoveryservice/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice-config/src/main/java/co/jp/okcoin/studyspring/HelloserviceConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice-config/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice-config/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookservice/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/src/main/java/co/jp/okcoin/studyspring/HelloserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/src/main/java/co/jp/okcoin/studyspring/HelloRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloservice/out/production/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
